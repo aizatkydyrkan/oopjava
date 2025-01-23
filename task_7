@@ -1,0 +1,20 @@
+public class Programmer {
+    private int salary = 1000;
+    public int getSalary() {
+        return salary;
+    }
+    public void setSalary(int newSalary) {
+        if (newSalary > this.salary) {
+            this.salary = newSalary;
+        }
+    }
+
+    public static void main(String[] args) {
+        Programmer programmer = new Programmer();
+        System.out.println("Текущая зарплата: " + programmer.getSalary());
+        programmer.setSalary(900);
+        System.out.println("После попытки понизить зарплату: " + programmer.getSalary());
+        programmer.setSalary(1200);
+        System.out.println("После повышения зарплаты: " + programmer.getSalary());
+    }
+}
