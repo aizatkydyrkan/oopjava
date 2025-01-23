@@ -1,0 +1,14 @@
+public class Building {
+    private String type;
+    public void initialize(String type) {
+        this.type = type;
+    }
+    public static void main(String[] args) {
+        Building building = new Building();
+        building.initialize("Ресторан");
+        System.out.println("Здание использовалось как: " + building.type);
+
+        building.initialize("Барбершоп");
+        System.out.println("Теперь здание используется как: " + building.type);
+    }
+}
