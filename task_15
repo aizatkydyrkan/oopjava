@@ -1,0 +1,16 @@
+public class mashina {
+    private String model;
+    private int year;
+    private String color;
+    public void initialize(String model, int year, String color) {
+        this.model = model;
+        this.year = year;
+        this.color = color;
+    }
+
+    public static void main(String[] args) {
+        mashina car=new mashina();
+        car.initialize("Toyota", 2022, "Красный");
+        System.out.println("Модель: " + car.model + ", Год выпуска: " + car.year + ", Цвет: " + car.color);
+    }
+}
