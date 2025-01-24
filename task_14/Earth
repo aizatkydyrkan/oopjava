@@ -1,0 +1,19 @@
+package materics;
+
+public class Earth {
+    public static void main(String[] args) {
+        Africa africa = new Africa(30370000);
+        Antarctica antarctica = new Antarctica(14000000);
+        Australia australia = new Australia(8600000);
+        Eurasia eurasia = new Eurasia(54704000);
+        NorthAmerica northAmerica = new NorthAmerica(24709000);
+        SouthAmerica southAmerica = new SouthAmerica(17840000);
+
+        System.out.println("Африка: " + africa.getClass().getSimpleName() + ", площадь: " + 30370000);
+        System.out.println("Антарктида: " + antarctica.getClass().getSimpleName() + ", площадь: " + 14000000);
+        System.out.println("Австралия: " + australia.getClass().getSimpleName() + ", площадь: " + 8600000);
+        System.out.println("Евразия: " + eurasia.getClass().getSimpleName() + ", площадь: " + 54704000);
+        System.out.println("Северная Америка: " + northAmerica.getClass().getSimpleName() + ", площадь: " + 24709000);
+        System.out.println("Южная Америка: " + southAmerica.getClass().getSimpleName() + ", площадь: " +17840000);
+    }
+}
