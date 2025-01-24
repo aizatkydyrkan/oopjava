@@ -1,0 +1,11 @@
+package oop;
+
+public class Solution {
+    public static void showWeather(City city) {
+       System.out.println("название города:" + city.getName()+ "   температура: " + city.getTemperature());
+    }
+    public static void main(String[] args) {
+        City city = new City ("Dubai",40);
+        showWeather(city);
+    }
+}
