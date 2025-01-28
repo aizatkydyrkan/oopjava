@@ -1,0 +1,16 @@
+package interfaces2;
+
+public class Duck implements solution2.CanFLy, solution2.CanRUn, solution2.CanSwim {
+    @Override
+    public void swim() {
+        System.out.println("duck swim");
+    }
+    @Override
+    public void fly() {
+        System.out.println("duck fly");
+    }
+    @Override
+    public void run() {
+        System.out.println("duck run");
+    }
+}
