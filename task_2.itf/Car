@@ -1,0 +1,8 @@
+package interfaces1;
+
+public class Car implements solution1.CanMove {
+    @Override
+    public void move() {
+        System.out.println("Car move");
+    }
+}
