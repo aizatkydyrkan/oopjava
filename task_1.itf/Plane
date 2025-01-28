@@ -1,0 +1,12 @@
+package interfaces;
+
+public class Plane implements CanFly{
+    @Override
+    public void fly() {
+        System.out.println("Plane fly");
+    }
+    @Override
+    public void land(){
+        System.out.println("Plane land");
+    }
+}
