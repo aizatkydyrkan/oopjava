@@ -1,0 +1,18 @@
+package interfaces1;
+
+public class Duck implements solution1.CanFly, solution1.CanEat, solution1.CanMove {
+    @Override
+    public void eat() {
+        System.out.println("duck eat");
+    }
+
+    @Override
+    public void move() {
+        System.out.println("duck move");
+    }
+
+    @Override
+    public void fly() {
+        System.out.println("duck fly");
+    }
+}
