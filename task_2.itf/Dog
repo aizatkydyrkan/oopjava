@@ -1,0 +1,13 @@
+package interfaces1;
+
+public class Dog implements solution1.CanEat, solution1.CanMove {
+    @Override
+    public void move() {
+        System.out.println("dog move");
+    }
+
+    @Override
+    public void eat() {
+        System.out.println("dog eat");
+    }
+}
