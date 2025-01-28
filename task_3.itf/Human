@@ -1,0 +1,12 @@
+package interfaces2;
+
+public class Human implements solution2.CanRUn, solution2.CanSwim {
+    @Override
+    public void run () {
+        System.out.println ("Human run");
+    }
+    @Override
+    public void swim () {
+        System.out.println ("Human swim");
+    }
+}
