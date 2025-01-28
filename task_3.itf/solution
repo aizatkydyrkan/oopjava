@@ -1,0 +1,30 @@
+package interfaces2;
+
+public class solution2 {
+    public interface CanFLy {
+        void fly();
+    }
+
+    public interface CanRUn {
+        void run();
+    }
+
+    public interface CanSwim {
+        void swim();
+    }
+
+    public static void main(String[] args) {
+        Duck duck = new Duck();
+        duck.swim();
+        duck.fly();
+        duck.run();
+        Human human = new Human();
+        human.swim();
+        human.run();
+        Airplane airplane = new Airplane();
+        airplane.fly();
+        Penguin penguin = new Penguin();
+        penguin.swim();
+        penguin.run();
+    }
+}
