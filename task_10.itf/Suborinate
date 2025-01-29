@@ -1,0 +1,11 @@
+public class Suborinate implements Secretary {
+    @Override
+    public void use(Person person) {
+        person.startToWork();
+    }
+
+    @Override
+    public void startToWork() {
+        System.out.println("Suborinate worl");
+    }
+}
