@@ -1,4 +1,4 @@
-public class task8 {
+public class task_8 {
     interface Person {
         boolean isAlive();
     }
