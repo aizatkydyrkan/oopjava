@@ -1,7 +1,7 @@
 import java.awt.Color;
 
 
-public class task17 {
+public class task_17 {
     public interface Animal {
         Color getColor();
     }
