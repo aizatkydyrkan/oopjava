@@ -1,0 +1,14 @@
+package task_11.itf;
+
+public class Dog implements task_11.Eat, task_11.Movable {
+    @Override
+    public void move() {
+        System.out.print("Dog can move");
+
+    }
+    @Override
+    public void eat() {
+        System.out.print("Dog can eat");
+
+    }
+}
