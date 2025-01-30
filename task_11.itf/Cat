@@ -1,0 +1,16 @@
+package task_11.itf;
+
+public class Cat implements task_11.Movable, task_11.Eat, task_11.Edible{
+    @Override
+    public void move() {
+        System.out.print("Cat can move");
+    }
+    @Override
+    public void beEaten() {
+        System.out.print("Cat can be eaten");
+    }
+    @Override
+    public void eat() {
+        System.out.print("Cat can eat");
+    }
+}
