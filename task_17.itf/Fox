@@ -1,4 +1,6 @@
-public abstract class Fox implements task17.Animal {
+package task_17.itf;
+
+public abstract class Fox implements task_17.Animal {
     public String getName() {
         return "Fox";
     }
