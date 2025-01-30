@@ -1,0 +1,15 @@
+package task_13.itf;
+
+public class task_13 {
+    interface DBObject {
+        DBObject initializeIdAndName(long id, String name);
+    }
+
+    static class Matrix {
+        public static DBObject NEO = new User().initializeIdAndName(1, "Neo");
+    }
+
+    public static void main(String[] args) throws Exception {
+        System.out.println(Matrix.NEO);
+    }
+}
