@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 
-public class task6 {
+public class task_6 {
     public static void main(String[] args) {
         Screen scr = new Screen();
         Scanner scn = new Scanner(System.in) ;
