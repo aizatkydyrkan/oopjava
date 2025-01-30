@@ -1,4 +1,4 @@
-public class task10 {
+public class task_10 {
     interface Person {
         void use(Person person);
         void startToWork();
